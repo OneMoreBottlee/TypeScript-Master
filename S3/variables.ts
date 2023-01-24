@@ -17,3 +17,13 @@ let gameOver : boolean = false
 gameOver = true
 // Error
 gameOver= "true"
+
+
+// Type Inference
+let tvShow = "Olive Kitteridge"
+tvShow = "The Oher Two"
+tvShow = false
+
+let isFunny = false
+isFunny = true
+isFunny = "asd"
