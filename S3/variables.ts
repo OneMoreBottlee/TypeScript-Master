@@ -4,26 +4,33 @@ movieTitle = "Harry Potter";
 // Error
 movieTitle = 9;
 
-
 // Number
-let numCatLives: number = 9
-numCatLives += 1
+let numCatLives: number = 9;
+numCatLives += 1;
 // Error
-numCatLives = "Zero"
-
+numCatLives = "Zero";
 
 // Boolean
-let gameOver : boolean = false
-gameOver = true
+let gameOver: boolean = false;
+gameOver = true;
 // Error
-gameOver= "true"
-
+gameOver = "true";
 
 // Type Inference
-let tvShow = "Olive Kitteridge"
-tvShow = "The Oher Two"
-tvShow = false
+let tvShow = "Olive Kitteridge";
+tvShow = "The Oher Two";
+tvShow = false;
 
-let isFunny = false
-isFunny = true
-isFunny = "asd"
+let isFunny = false;
+isFunny = true;
+isFunny = "asd";
+
+// Any
+let thing: any = "hello";
+thing = 1;
+thing = false;
+thing();
+thing.toUpperCase();
+
+let other = "hello";
+other.sadsafa();
