@@ -34,3 +34,17 @@ thing.toUpperCase();
 
 let other = "hello";
 other.sadsafa();
+
+//
+const movies = ["Arrival", "The Ring", "Aliens", "Amadeus"];
+let foundMovie: string;
+
+for (let movie of movies) {
+  if (movie === "Amadeus") {
+    foundMovie = "Amadeus";
+  }
+}
+
+foundMovie();
+foundMovie = 1;
+foundMovie.asdafsdf();
