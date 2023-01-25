@@ -68,7 +68,6 @@ const earnings = calculatePayout(mySong);
 console.log(earnings);
 printSong(mySong);
 
-
 // 선택적 프로퍼티
 type Point = {
   x: number;
@@ -78,17 +77,48 @@ type Point = {
 
 const myPoint: Point = { x: 1, y: 3 };
 
-
 // Readonly
 type User = {
-    readonly id: number;
-    username: string
-}
+  readonly id: number;
+  username: string;
+};
 
 const user: User = {
-    id: 12356,
-    username: "cotman"
-}
+  id: 12356,
+  username: "cotman",
+};
 
-console.log(user.id)
-user.id = 235235
+console.log(user.id);
+user.id = 235235;
+
+// 교차 타입
+type Circle = {
+  radius: number;
+};
+
+type Colorful = {
+  color: string;
+};
+
+type ColorfulCircle = Circle & Colorful;
+
+const happyFace: ColorfulCircle = {
+  radius: 4,
+  color: "Yellow",
+};
+
+type Cat = {
+  numLives: number;
+};
+
+type Dog = {
+  breed: string;
+};
+
+type CatDog = Cat & Dog & { age: number };
+
+const christy: CatDog = {
+  numLives: 7,
+  breed: "Husky",
+  age: 33,
+};
