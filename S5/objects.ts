@@ -20,10 +20,10 @@ printName(sig);
 // 필요한 것만 전달하고 나머지는 전달하지 않음
 
 // 타입 별칭, 반복되어 재사용 가능한 타입을 지정함
-type Point = {
-  x: number;
-  y: number;
-};
+// type Point = {
+//   x: number;
+//   y: number;
+// };
 
 let coordinate: Point = { x: 34, y: 2 };
 
@@ -65,5 +65,15 @@ const mySong: Song = {
 };
 
 const earnings = calculatePayout(mySong);
-console.log(earnings)
+console.log(earnings);
 printSong(mySong);
+
+
+// 선택적 프로퍼티
+type Point = {
+  x: number;
+  y: number;
+  z?: number;
+};
+
+const myPoint: Point = { x: 1, y: 3 };
