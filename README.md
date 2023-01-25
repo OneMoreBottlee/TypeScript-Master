@@ -10,7 +10,9 @@
 
 ## 230125_2nd
 
+이전에 배운 지식이 조금씩 되살아난다!  
+연휴동안 놀던 뇌도 받아들일 수 있는, 어렵지 않은 내용이었다 :-)  
 
-- [] section 4
-- [] section 5
-- [] section 6
+- [v] section 4
+- [v] section 5
+- [v] section 6
