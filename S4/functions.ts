@@ -41,8 +41,14 @@ colors.map((color) => {
   return color.toUpperCase();
 });
 
-// Void
+// Void - 아무것도 반환하지 않는 함수에 설정
 function printTwice(msg: string): void {
   console.log(msg);
   console.log(msg);
+}
+
+
+// Never
+function makeError(msg: string): never{
+    throw new Error(msg)
 }
