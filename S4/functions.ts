@@ -18,3 +18,18 @@ function greett(person: string = "stranger"){
     return `Hi there, ${person}!`
 }
 
+// 리턴 애니테이션
+function square2(num: number):number {
+    return num * num;
+}
+
+square(2)
+
+
+// 리턴값의 타입이 문자열일수도, 숫자일수도 있음
+function random(num: number) {
+    if(Math.random() < 0.5) {
+        return num.toString()
+    }
+    return num
+}
