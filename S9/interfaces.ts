@@ -3,6 +3,8 @@ interface Person {
   first: string;
   last: string;
   nickname?: string;
+  sayHi: () => string;
+  sayBye(): string;
 }
 
 const thomas: Person = {
@@ -10,4 +12,10 @@ const thomas: Person = {
   first: "Thomas",
   last: "Hardy",
   nickname: "gg",
+  sayHi: () => {
+    return "Hello!";
+  },
+  sayBye: () => {
+    return "bye";
+  },
 };
