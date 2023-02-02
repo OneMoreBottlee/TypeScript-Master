@@ -37,3 +37,37 @@ const shoes: Product = {
 };
 
 console.log(shoes.applyDiscount(0.4));
+
+interface Dog {
+  name: string;
+  age: number;
+}
+
+interface Dog {
+  breed: string;
+  bark(): string;
+}
+
+const elton: Dog = {
+  name: "Elton",
+  age: 10,
+  breed: "DDONG",
+  bark() {
+    return "wak wak";
+  },
+};
+
+// 확장 . 상속
+interface ServiceDog extends Dog {
+  job: "drug sniffer" | "bomb" | "sleep";
+}
+
+const chewy: ServiceDog = {
+  name: "Chewy",
+  age: 15,
+  breed: "Lab",
+  bark() {
+    return "wang";
+  },
+  job: "sleep",
+};
