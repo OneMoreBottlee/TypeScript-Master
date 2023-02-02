@@ -35,3 +35,30 @@ function calculateTax(price: number|string, tax: number){
     }
     return price*tax
 }
+
+// 배열에 유니온 타입 설정
+// const nums: number[] = [1,2,3,4]
+
+const stuff: (number | string)[] = [1, 5, "Gg"]
+
+// 괄호가 없다면 하나의 값에 해당하는 타입
+// const stuff: number | string[] = 1
+
+const coords: (Point|Loc)[] = []
+coords.push({lat:123, long:135315})
+coords.push({x:123, y:135315})
+
+
+// 리터럴 타입
+let zero: 0 = 0
+zero = 2
+
+let hi: "hi" = "hi"
+hi = "hello"
+
+let mood: "Happy" | "Sad" = "Happy"
+mood = "Sad"
+mood = "Angry"
+
+type DayOfWeek = "Mon" | "Tue" | "Wen" | "Thur" | "Fri" | "Sat" | "Sun"
+let today: DayOfWeek = ""
