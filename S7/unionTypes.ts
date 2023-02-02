@@ -28,7 +28,7 @@ printAge("73")
 //     price.replace("$", "")
 // }
 
-// type narrow
+// type narrowing
 function calculateTax(price: number|string, tax: number){
     if(typeof price === "string"){
         price = parseFloat(price.replace("$", ""))
