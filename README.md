@@ -18,9 +18,9 @@
 연휴동안 놀던 뇌도 받아들일 수 있는, 어렵지 않은 내용이었다 :-)  
 
 **Section 4 - Section 6**
-- [v] section 4
-- [v] section 5
-- [v] section 6
+- [x] section 4
+- [x] section 5
+- [x] section 6
 
 <br/>
 
@@ -29,9 +29,9 @@
 
 
 **Section 7 - Section 10**
-- [] section 7
-- [] section 8
-- [] section 9
-- [] section 10
+- [x] section 7
+- [x] section 8
+- [x] section 9
+- [x] section 10
 
 <br/>
