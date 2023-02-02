@@ -6,9 +6,9 @@
 최대한 빠르게 배우고, 프로젝트에 적용해보자 !
 
 **Section 1 - Section 3**
-- [v] section 1
-- [v] section 2
-- [v] section 3
+- [v] section 1 - Intro
+- [v] section 2 - Setting
+- [v] section 3 - Type
 
 <br/>
 
@@ -18,9 +18,9 @@
 연휴동안 놀던 뇌도 받아들일 수 있는, 어렵지 않은 내용이었다 :-)  
 
 **Section 4 - Section 6**
-- [x] section 4
-- [x] section 5
-- [x] section 6
+- [x] section 4 - Function
+- [x] section 5 - Object Type
+- [x] section 6 - Array Type
 
 <br/>
 
@@ -29,9 +29,9 @@
 
 
 **Section 7 - Section 10**
-- [x] section 7
-- [x] section 8
-- [x] section 9
+- [x] section 7 - Union Type
+- [x] section 8 - Tuple & Enum
+- [x] section 9 - Interfaces
 - [x] section 10
 
 <br/>
