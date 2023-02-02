@@ -21,10 +21,20 @@ enum OrderStatus {
   RETURNED,
 }
 
-const myStatus = OrderStatus.DELIVERED
+const myStatus = OrderStatus.DELIVERED;
 
-function isDelivered(status: OrderStatus){
-    return status === OrderStatus.DELIVERED
+function isDelivered(status: OrderStatus) {
+  return status === OrderStatus.DELIVERED;
 }
 
-isDelivered(OrderStatus.)
+isDelivered(OrderStatus.RETURNED);
+
+const enum ArrowKeys {
+  Up = "up",
+  Down = "down",
+  Left = "left",
+  Right = "right",
+  Error = 235,
+}
+
+ArrowKeys.Left;
