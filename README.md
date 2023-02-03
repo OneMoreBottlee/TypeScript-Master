@@ -6,9 +6,9 @@
 최대한 빠르게 배우고, 프로젝트에 적용해보자 !
 
 **Section 1 - Section 3**
-- [v] section 1 - Intro
-- [v] section 2 - Setting
-- [v] section 3 - Type
+- [x] section 1 - Intro
+- [x] section 2 - Setting
+- [x] section 3 - Type
 
 <br/>
 
@@ -26,12 +26,13 @@
 
 ## 230202_3rd
 
-
+아직 어렵지 않아 다행이다.  
+노마드 코더에서 사용한 기능들이 무엇이고 왜 사용한건지 오늘 학습을 통해 알 수 있었다.  
 
 **Section 7 - Section 10**
 - [x] section 7 - Union Type
 - [x] section 8 - Tuple & Enum
 - [x] section 9 - Interfaces
-- [x] section 10
+- [x] section 10 - TS Compiler
 
 <br/>
