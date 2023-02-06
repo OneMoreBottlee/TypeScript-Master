@@ -47,3 +47,12 @@ react가 그립다.
 - [x] section 11 - Mini Todo
 
 <br/>
+
+## 230206_5rd
+
+JS class 개념 설명
+
+**Section 11**
+- [x] section 12 - Class in JS
+
+<br/>
