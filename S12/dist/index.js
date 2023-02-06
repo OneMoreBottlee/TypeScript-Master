@@ -1,4 +1,6 @@
 class Player {
+    static descripton = "Player"
+
     // 클래스 필드
     #score = 0;
     numLives = 10;
@@ -8,6 +10,10 @@ class Player {
         this.last = last
         this.#secret
         console.log(`I'm ${this.first} ${this.last}`)
+    }
+
+    static randomPlayer(){
+        return new Player("ran", "dom")
     }
 
     get fullName(){
