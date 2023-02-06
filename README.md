@@ -52,7 +52,7 @@ react가 그립다.
 
 JS class 개념 설명
 
-**Section 11**
+**Section 12**
 - [x] section 12 - Class in JS
 
 <br/>
