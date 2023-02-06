@@ -59,17 +59,16 @@ class Player {
     }
 }
 
-const Player1 = new Player("SON", "HM")
-Player1.taunt()
-console.log(Player1.fullName)
-Player1.fullName = "Kim MJ"
-console.log(Player1)
-// console.log(Player1.score)
-// Player1.score = 353
-// console.log(Player1.score)
-// Player1.score = -353
-// console.log(Player1.score)
+class AdminPlayer extends Player{
+    isAdmin = true;
+}
 
-// const Player2 = new Player("Park", "JS")
-// Player2.taunt()
-// console.log(Player2)
+const admin = new AdminPlayer();
+console.log(admin)
+admin.taunt()
+
+// const Player1 = new Player("SON", "HM")
+// Player1.taunt()
+// console.log(Player1.fullName)
+// Player1.fullName = "Kim MJ"
+// console.log(Player1)
