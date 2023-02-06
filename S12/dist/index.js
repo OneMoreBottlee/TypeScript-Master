@@ -60,10 +60,14 @@ class Player {
 }
 
 class AdminPlayer extends Player{
+    constructor(first, last, powers){
+        super(first, last)
+        this.power = powers
+    }
     isAdmin = true;
 }
 
-const admin = new AdminPlayer();
+const admin = new AdminPlayer("운", "영자", ["delete", "restore world"]);
 console.log(admin)
 admin.taunt()
 
