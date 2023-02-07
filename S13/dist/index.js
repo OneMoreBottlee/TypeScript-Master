@@ -58,3 +58,33 @@ class Jacket {
 }
 const bike1 = new Bike("red");
 const jacket1 = new Jacket("Prada", "black");
+class Employee {
+    constructor(first, last) {
+        this.first = first;
+        this.last = last;
+    }
+    greet() {
+        console.log("HHH");
+    }
+}
+class FullTimeEmployee extends Employee {
+    constructor(first, last, salary) {
+        super(first, last);
+        this.salary = salary;
+    }
+    getPay() {
+        return this.salary;
+    }
+}
+class PartTimeEmployee extends Employee {
+    constructor(first, last, hourlyRate, hoursWorked) {
+        super(first, last);
+        this.hourlyRate = hourlyRate;
+        this.hoursWorked = hoursWorked;
+    }
+    getPay() {
+        return this.hourlyRate * this.hoursWorked;
+    }
+}
+const Son = new FullTimeEmployee("HM", "Son", 100000);
+const Park = new PartTimeEmployee("JS", "Park", 10000, 5);
