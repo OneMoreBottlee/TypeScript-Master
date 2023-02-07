@@ -44,3 +44,17 @@ const koNo7 = new Player("HM", "SON", 100);
 koNo7.fullName;
 koNo7.score = 100;
 koNo7.score = -500;
+class Bike {
+    constructor(color) {
+        this.color = color;
+    }
+}
+class Jacket {
+    constructor(brand, color) {
+        this.brand = brand;
+        this.color = color;
+    }
+    print() { console.log(`${this.color} ${this.brand} Jacket`); }
+}
+const bike1 = new Bike("red");
+const jacket1 = new Jacket("Prada", "black");

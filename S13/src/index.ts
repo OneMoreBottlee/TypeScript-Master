@@ -48,3 +48,24 @@ const koNo7 = new Player("HM", "SON", 100);
 koNo7.fullName;
 koNo7.score = 100;
 koNo7.score = -500;
+
+interface Colorful {
+    color: string;
+}
+
+interface Printable {
+    print(): void
+}
+
+class Bike implements Colorful{
+    constructor(public color: string) {}
+}
+
+class Jacket implements Colorful, Printable {
+    constructor(public brand: string, public color: string){}
+    
+    print(): void {console.log(`${this.color} ${this.brand} Jacket`)}
+}
+
+const bike1 = new Bike("red")
+const jacket1 = new Jacket("Prada", "black")
