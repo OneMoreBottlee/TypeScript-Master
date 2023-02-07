@@ -13,13 +13,34 @@
 //   }
 // }
 class Player {
-    constructor(first, last, score) {
+    constructor(first, last, _score) {
         this.first = first;
         this.last = last;
-        this.score = score;
+        this._score = _score;
     }
-    secretMethod() {
-        console.log("SECRET METHOD !");
+    get fullName() {
+        return `${this.first} ${this.last}`;
+    }
+    get score() {
+        return this._score;
+    }
+    set score(newScore) {
+        if (newScore < 0) {
+            throw new Error("Score cannot be negative !");
+        }
+        this._score = newScore;
+    }
+}
+class SuperPlayer extends Player {
+    constructor() {
+        super(...arguments);
+        this.isWinner = true;
+    }
+    kingScore() {
+        this._score = 9999;
     }
 }
 const koNo7 = new Player("HM", "SON", 100);
+koNo7.fullName;
+koNo7.score = 100;
+koNo7.score = -500;
