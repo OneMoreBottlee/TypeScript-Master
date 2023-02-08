@@ -31,3 +31,9 @@ console.log(getRandomElement(["a", "b", "c", "d", "e", "f", "g", "h"]));
 console.log(getRandomElement([1, 535, 2727, 8738, 46346, 378686548]));
 console.log(getRandomElement(["SON", "CHA", "PARK", "KIM"]));
 console.log(getRandomElement([true, false, "PARK", "KIM", 555, 600]));
+function merge(object1, object2) {
+    return Object.assign(Object.assign({}, object1), object2);
+}
+const comboObj = merge({ name: "Son" }, { team: "ToT" });
+console.log(comboObj);
+console.log(merge({ name: "Park" }, 10));
