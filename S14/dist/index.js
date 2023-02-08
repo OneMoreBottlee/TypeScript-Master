@@ -27,5 +27,7 @@ function getRandomElement(list) {
     const ranIdx = Math.floor(Math.random() * list.length);
     return list[ranIdx];
 }
-console.log(getRandomElement(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"]));
+console.log(getRandomElement(["a", "b", "c", "d", "e", "f", "g", "h"]));
 console.log(getRandomElement([1, 535, 2727, 8738, 46346, 378686548]));
+console.log(getRandomElement(["SON", "CHA", "PARK", "KIM"]));
+console.log(getRandomElement([true, false, "PARK", "KIM", 555, 600]));
