@@ -58,3 +58,47 @@ console.log(comboObj)
 
 console.log(merge({ name: "Park"}, 10))
 
+interface Lenghty {
+    length: number
+}
+
+function printDoubleLength <T extends Lenghty> (thing : T): number {
+    return thing.length * 2
+}
+
+function makeEmptyArray <T = number> (): T[] {
+    return []
+}
+
+const nums = makeEmptyArray()
+const strings = makeEmptyArray<string>()
+
+
+
+interface Song {
+    title: string;
+    artist: string;
+}
+
+interface Video {
+    title: string;
+    creator: string;
+    resolution: string;
+}
+
+class PlayList<T>{
+    public queue: T[] =[]
+
+    add(el: T){
+        this.queue.push(el)
+    }
+}
+
+const songs = new PlayList<Song>()
+
+songs.add({title: "운이좋았지", artist: "권진아"})
+
+const videos = new PlayList<Video>()
+
+videos.add({title: "55도발", creator: "침착맨", resolution:"720"})
+

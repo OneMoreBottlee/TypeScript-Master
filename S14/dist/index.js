@@ -37,3 +37,23 @@ function merge(object1, object2) {
 const comboObj = merge({ name: "Son" }, { team: "ToT" });
 console.log(comboObj);
 console.log(merge({ name: "Park" }, 10));
+function printDoubleLength(thing) {
+    return thing.length * 2;
+}
+function makeEmptyArray() {
+    return [];
+}
+const nums = makeEmptyArray();
+const strings = makeEmptyArray();
+class PlayList {
+    constructor() {
+        this.queue = [];
+    }
+    add(el) {
+        this.queue.push(el);
+    }
+}
+const songs = new PlayList();
+songs.add({ title: "운이좋았지", artist: "권진아" });
+const videos = new PlayList();
+videos.add({ title: "55도발", creator: "침착맨", resolution: "720" });
