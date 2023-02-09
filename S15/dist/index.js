@@ -27,3 +27,30 @@ function getRuntime(vedio) {
         return vedio.duration;
     }
 }
+function printFullDate(date) {
+    // Date
+    if (date instanceof Date) {
+        console.log(date.toUTCString());
+    }
+    else { // string
+        new Date(date).toUTCString();
+    }
+}
+class User {
+    constructor(username) {
+        this.username = username;
+    }
+}
+class Company {
+    constructor(name) {
+        this.name = name;
+    }
+}
+function printName(entity) {
+    if (entity instanceof User) { // User
+        entity;
+    }
+    else { // Company
+        entity;
+    }
+}

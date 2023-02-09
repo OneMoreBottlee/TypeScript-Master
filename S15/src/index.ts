@@ -45,3 +45,30 @@ function getRuntime (vedio: Movie | TVShow) {
     }
 }
 
+
+
+function printFullDate (date: string | Date) {
+    // Date
+    if(date instanceof Date){
+        console.log(date.toUTCString())
+    }else{ // string
+        new Date(date).toUTCString()
+    }
+}
+
+class User {
+    constructor(public username: string){}
+}
+
+class Company {
+    constructor(public name: string){}
+}
+
+function printName(entity: User | Company){
+    if(entity instanceof User){ // User
+        entity
+    }else{ // Company
+        entity
+    }
+}
+
