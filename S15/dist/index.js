@@ -67,3 +67,20 @@ function makeNoise(animal) {
     }
     animal;
 }
+function getFarmAnimalSOund(animal) {
+    switch (animal.kind) {
+        case ("돼지"):
+            return "꿀꿀";
+        case ("소"):
+            return "음머";
+        case ("수탉"):
+            return "꼬끼오";
+    }
+}
+const stevie = {
+    name: "닭대장",
+    weight: 10,
+    age: 5,
+    kind: "수탉"
+};
+getFarmAnimalSOund(stevie);

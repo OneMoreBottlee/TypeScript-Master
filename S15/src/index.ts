@@ -98,3 +98,48 @@ function makeNoise (animal: Cat | Dog):string {
     }
     animal
 }
+
+
+interface Rooster {
+    kind: "수탉";
+    name: string;
+    weight: number;
+    age: number;
+}
+
+interface Cow {
+    kind: "소";
+    name: string;
+    weight: number;
+    age: number;
+}
+
+interface Pig {
+    kind: "돼지";
+    name: string,
+    weight: number,
+    age: number
+}
+
+type FarmAnimal = Pig | Cow | Rooster
+
+function getFarmAnimalSOund(animal: FarmAnimal){
+    switch(animal.kind){
+        case("돼지"):
+            return "꿀꿀"
+        case("소"):
+            return "음머"
+        case("수탉"):
+            return "꼬끼오"
+    }
+}
+
+const stevie: Rooster = {
+    name: "닭대장",
+    weight: 10,
+    age: 5,
+    kind: "수탉"
+}
+
+getFarmAnimalSOund(stevie)
+
