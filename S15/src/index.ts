@@ -24,3 +24,24 @@ function someDemo(x: string | number, y: string | boolean){
         x.toUpperCase()
     }
 }
+
+
+interface Movie {
+    title: string,
+    duration: number
+}
+
+interface TVShow {
+    title: string,
+    numEpisodes: number,
+    episodeDuration: number
+}
+
+function getRuntime (vedio: Movie | TVShow) {
+    if("numEpisodes" in vedio){
+        return vedio.numEpisodes * vedio.episodeDuration
+    }else{
+        return vedio.duration
+    }
+}
+

@@ -19,3 +19,11 @@ function someDemo(x, y) {
         x.toUpperCase();
     }
 }
+function getRuntime(vedio) {
+    if ("numEpisodes" in vedio) {
+        return vedio.numEpisodes * vedio.episodeDuration;
+    }
+    else {
+        return vedio.duration;
+    }
+}
