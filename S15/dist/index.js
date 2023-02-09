@@ -14,3 +14,8 @@ const printLetters = (word) => {
         console.log("YOU DID NOT PASS IN A WORD !");
     }
 };
+function someDemo(x, y) {
+    if (x === y) {
+        x.toUpperCase();
+    }
+}
