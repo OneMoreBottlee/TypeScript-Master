@@ -121,7 +121,14 @@ interface Pig {
     age: number
 }
 
-type FarmAnimal = Pig | Cow | Rooster
+const stevie: Sheep = {
+    name: "양대장",
+    weight: 10,
+    age: 5,
+    kind: "양"
+}
+
+type FarmAnimal = Pig | Cow | Rooster | Sheep
 
 function getFarmAnimalSOund(animal: FarmAnimal){
     switch(animal.kind){
@@ -131,14 +138,18 @@ function getFarmAnimalSOund(animal: FarmAnimal){
             return "음머"
         case("수탉"):
             return "꼬끼오"
+        default:
+            // 여기까지 오면 안됨 !! 오면 에러임 !
+            const _exhaustiveCheck: never = animal
+            return _exhaustiveCheck
     }
 }
 
-const stevie: Rooster = {
-    name: "닭대장",
-    weight: 10,
-    age: 5,
-    kind: "수탉"
+interface Sheep {
+    kind: "양",
+    name: string,
+    weight: number,
+    age: number
 }
 
 getFarmAnimalSOund(stevie)

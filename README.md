@@ -1,5 +1,7 @@
 # TypeScript-Master
 
+<a href="https://www.notion.so/onemorebottlee/TypeScript-with-Webpack-React-adaed75a322a497b8b3c3bfd367b2f3a">정리는 여기에</a>
+
 ## 230124_1st
 
 타입스크립트 기본 개념 학습을 위해 시작.  
@@ -44,15 +46,42 @@
 react가 그립다.  
 
 **Section 11**
-- [x] section 11 - Mini Todo
+- [x] Mini Todo
 
 <br/>
 
 ## 230206_5rd
 
-JS class 개념 설명
+About Class in JS
 
 **Section 12**
-- [x] section 12 - Class in JS
+- [x] Class in JS
+
+<br/>
+
+## 230207_6rd
+
+About Class in TS
+
+**Section 13**
+- [x] Class in TS
+
+<br/>
+
+## 230208_7rd
+
+About Generics
+
+**Section 14**
+- [x] Generics
+
+<br/>
+
+## 230209_8rd
+
+About Narrowing
+
+**Section 15**
+- [x] Narrowing
 
 <br/>

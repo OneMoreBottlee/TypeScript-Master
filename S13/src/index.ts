@@ -70,6 +70,10 @@ class Jacket implements Colorful, Printable {
 const bike1 = new Bike("red")
 const jacket1 = new Jacket("Prada", "black")
 
+interface Payable {
+    getPay():number
+}
+
 abstract class Employee {
     constructor(public first: string, public last: string){}
 
@@ -102,3 +106,4 @@ class PartTimeEmployee extends Employee {
 
 const Son = new FullTimeEmployee("HM", "Son", 100000)
 const Park = new PartTimeEmployee("JS", "Park", 10000, 5)
+
