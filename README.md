@@ -7,7 +7,7 @@
 타입스크립트 기본 개념 학습을 위해 시작.  
 최대한 빠르게 배우고, 프로젝트에 적용해보자 !
 
-**Section 1 - Section 3**
+**Section 1 - 3**
 - [x] section 1 - Intro
 - [x] section 2 - Setting
 - [x] section 3 - Type
@@ -19,7 +19,7 @@
 이전에 배운 지식이 조금씩 되살아난다!  
 연휴동안 놀던 뇌도 받아들일 수 있는, 어렵지 않은 내용이었다 :-)  
 
-**Section 4 - Section 6**
+**Section 4 - 6**
 - [x] section 4 - Function
 - [x] section 5 - Object Type
 - [x] section 6 - Array Type
@@ -31,7 +31,7 @@
 아직 어렵지 않아 다행이다.  
 노마드 코더에서 사용한 기능들이 무엇이고 왜 사용한건지 오늘 학습을 통해 알 수 있었다.  
 
-**Section 7 - Section 10**
+**Section 7 - 10**
 - [x] section 7 - Union Type
 - [x] section 8 - Tuple & Enum
 - [x] section 9 - Interfaces
@@ -83,5 +83,15 @@ About Narrowing
 
 **Section 15**
 - [x] Narrowing
+
+<br/>
+
+## 230210_9rd
+
+Type Declarations && Module
+
+**Section 16 - 17**
+- [x] Section 16 - Type Declarations
+- [x] Section 17 - Module
 
 <br/>

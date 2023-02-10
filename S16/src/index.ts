@@ -1,4 +1,5 @@
 import axios from "axios"
+import _ from "lodash"
 
 const URL = "https://jsonplaceholer.typicode.com/users"
 
